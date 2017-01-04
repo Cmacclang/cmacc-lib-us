@@ -1,21 +1,7 @@
-$ entity = [../US/_individual.cmacc];
+$ entity = [../cmacc-lib-id/_individual.cmacc];
 
-$ adr_12 = [../Geo/_adr_12.cmacc] => {
+$ adr_12 = [./_adr_12.cmacc] => {
 	"adr" : entity.adr
 };
 
-{{entity.name_Full}}, {{adr_12}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{{entity.full_Name}}, {{adr_12}}

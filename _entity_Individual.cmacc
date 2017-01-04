@@ -1,20 +1,19 @@
-$ person = [../ID/_individual.cmacc];
+$ person = [../cmacc-lib-id/_individual.cmacc];
 
-$ name_Full = "{{person.name_Full}}";
+$ full_Name = "{{person.full_Name}}";
 
-$ name_Dear = "{{person.name_Formal}}";
+$ dear_Name = "{{person.formal_Name}}";
 
 $ gov_ID_Number = "gov_ID_Number";
 
 $ entity_a = "an individual";
 
-$ adr = [../Geo/country/state/county/city/street/streetnum/_geo.cmacc];
+$ adr = [../cmacc-lib-geo/country/state/county/city/street/streetnum/_geo.cmacc];
 
 $ adr_Type = "personal";
 
-$ sign_Rep = [../ID/_individual.cmacc];
+$ sign_Rep = [../cmacc-lib-id/_individual.cmacc];
 
 $ sign_Title = "Self";
 
-$ pron = [../US/_sing.cmacc];
-
+$ pron = [./_sing.cmacc];

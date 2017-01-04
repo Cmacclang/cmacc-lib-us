@@ -1,8 +1,8 @@
-$ party1 = [../ID/_person.cmacc];
+$ party1 = [../cmacc-lib-id/_individual.cmacc];
 
 $ party1_Role = "party1_Role";
 
-$ party2 = [../ID/_person.cmacc];
+$ party2 = [../cmacc-lib-id/_individual.cmacc];
 
 $ party2_Role = "party2_Role";
 
@@ -10,14 +10,14 @@ $ sign_Place = "sign_Place";
 
 $ sign_Date = "sign_Date";
 
-$ sign_Party1 = [../US/_sign.cmacc] => {
+$ sign_Party1 = [./_sign.cmacc] => {
  "role" : party1_Role,
  "person" : party1,
  "sign_Place" : sign_Place,
  "sign_Date" : sign_Date
 };
 
-$ sign_Party2 = [../US/_sign.cmacc] => {
+$ sign_Party2 = [./_sign.cmacc] => {
  "role" : party2_Role,
  "person" : party2,
  "sign_Place" : sign_Place,
