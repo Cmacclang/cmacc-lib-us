@@ -1,6 +1,6 @@
 $ role = "role";
 
-$ person = [../cmacc-lib-id/_individual.cmacc];
+$ person = [yarn://cmacc-lib-id/_individual.cmacc];
 
 $ sign_Place = "sign_Place";
 

@@ -1,8 +1,8 @@
-$ party1 = [../cmacc-lib-id/_individual.cmacc];
+$ party1 = [yarn://cmacc-lib-id/_individual.cmacc];
 
 $ party1_Role = "party1_Role";
 
-$ party2 = [../cmacc-lib-id/_individual.cmacc];
+$ party2 = [yarn://cmacc-lib-id/_individual.cmacc];
 
 $ party2_Role = "party2_Role";
 
