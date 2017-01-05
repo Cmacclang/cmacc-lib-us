@@ -1,6 +1,6 @@
 {
   "name": "cmacc-lib-us",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Package for defaults for english or USA",
   "main": "index.js",
   "repository": "git@github.com:Cmacclang/cmacc-lib-us.git",
