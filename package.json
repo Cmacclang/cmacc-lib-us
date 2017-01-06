@@ -3,12 +3,12 @@
   "version": "1.0.8",
   "description": "Package for defaults for english or USA",
   "main": "index.js",
-  "repository": "git@github.com:Cmacclang/cmacc-lib-us.git",
+  "repository": "https://github.com/cmacclang/cmacc-lib-us.git",
   "author": "Marc Dangeard <marc@dangeard.com>",
   "license": "MIT",
   "flat": true,
   "dependencies": {
-    "cmacc-lib-geo": "cmacclang/cmacc-lib-geo",
-    "cmacc-lib-id": "cmacclang/cmacc-lib-id"
+    "cmacc-lib-geo": "https://github.com/cmacclang/cmacc-lib-geo.git#v1.0-beta",
+    "cmacc-lib-id": "https://github.com/cmacclang/cmacc-lib-id.git#v1.0-beta"
   }
 }
