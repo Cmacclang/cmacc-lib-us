@@ -1,6 +1,6 @@
 {
   "name": "cmacc-lib-us",
-  "version": "1.0.8",
+  "version": "1.1.1",
   "description": "Package for defaults for english or USA",
   "main": "index.js",
   "repository": "https://github.com/cmacclang/cmacc-lib-us.git",
@@ -8,7 +8,13 @@
   "license": "MIT",
   "flat": true,
   "dependencies": {
-    "cmacc-lib-geo": "cmacclang/cmacc-lib-geo#v1.0-beta",
-    "cmacc-lib-id": "cmacclang/cmacc-lib-id#v1.0-beta"
+    "cmacc-lib-geo": "cmacclang/cmacc-lib-geo#1.1.0",
+    "cmacc-lib-id": "cmacclang/cmacc-lib-id#1.1.1"
+  },
+  "resolutions": {
+    "cmacc-lib-geo": "1.0.7",
+    "cmacc-lib-id": "1.1.1",
+    "cmacc-lib-fr": "1.1.0",
+    "cmacc-lib-us": "1.1.0"
   }
 }
