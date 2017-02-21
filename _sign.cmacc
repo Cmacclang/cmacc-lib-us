@@ -1,14 +1,19 @@
+// Person role
 $ role = "role";
 
-$ person = [yarn://cmacc-lib-id/_individual.cmacc];
+// Person full name
+$ person_Full_Name = "person_Full_Name";
 
+// Signature date and place
 $ sign_Place = "sign_Place";
 
 $ sign_Date = "sign_Date";
 
+// Signature block
+
 Role: {{role}}
 
-Name: {{person.full_Name}}  
+Name: {{person_Full_Name}}  
 Place: {{sign_Place}}
 Date: {{sign_Date}}
 -------------------------

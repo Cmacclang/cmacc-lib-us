@@ -1,17 +1,13 @@
-$ p1 = [./_entity.cmacc];
+// description of party 1
+$ p1_NEA = "p1_NEA";
 
-$ p2 = [./_entity.cmacc];
+// description of party 2
+$ p2_NEA = "p2_NEA";
 
-$ p1_NEA = [./_entity_NEA.cmacc] => {
- "entity" : p1
-};
-
-$ p2_NEA = [./_entity_NEA.cmacc] => {
- "entity" : p2
-};
-
+// document title
 $ doc_Title = "Doc_Title";
 
+// effective date of agreement
 $ effective_Date = "Effective_Date";
 
 
