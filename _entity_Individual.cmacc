@@ -16,4 +16,4 @@ $ sign_Rep = [yarn://cmacc-lib-id/_individual.cmacc];
 
 $ sign_Title = "Self";
 
-$ pron = [./_sing.cmacc];
+$ pron = [yarn://cmacc-lib-lang/EN/_sing.cmacc];
