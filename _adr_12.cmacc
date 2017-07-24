@@ -1,4 +1,4 @@
 // geographical coordinates (here from Cmacc Geo library)
-$ adr = [yarn://cmacc-lib-geo/country/state/county/city/street/streetnum/_geo.cmacc];
+$ adr = [github:///cmacclang/cmacc-lib-geo/dev/country/state/county/city/street/streetnum/_geo.cmacc]
 
 {{adr.streetnum}} {{adr.street.name}}, {{adr.street.city.name}}, {{adr.street.city.county.state.statecode}} {{adr.zip}}

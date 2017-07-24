@@ -1,8 +1,8 @@
 // entity name
-$ entity_Address = "entity_Address";
+$ entity_Address = "entity_Address"
 
 // entity name
-$ entity_Full_Name = "entity_Full_Name";
+$ entity_Full_Name = "entity_Full_Name"
 
 // Entity name and address
 

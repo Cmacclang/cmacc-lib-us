@@ -1,19 +1,19 @@
-$ person = [yarn://cmacc-lib-id/_individual.cmacc];
+$ person = [github:///cmacclang/cmacc-lib-id/dev/_individual.cmacc]
 
-$ full_Name = "{{person.full_Name}}";
+$ full_Name = "{{person.full_Name}}"
 
-$ dear_Name = "{{person.formal_Name}}";
+$ dear_Name = "{{person.formal_Name}}"
 
-$ gov_ID_Number = "gov_ID_Number";
+$ gov_ID_Number = "gov_ID_Number"
 
-$ entity_a = "an individual";
+$ entity_a = "an individual"
 
-$ adr = [yarn://cmacc-lib-geo/country/state/county/city/street/streetnum/_geo.cmacc];
+$ adr = [github:///cmacclang/cmacc-lib-geo/dev/country/state/county/city/street/streetnum/_geo.cmacc]
 
-$ adr_Type = "personal";
+$ adr_Type = "personal"
 
-$ sign_Rep = [yarn://cmacc-lib-id/_individual.cmacc];
+$ sign_Rep = [github:///cmacclang/cmacc-lib-id/dev/_individual.cmacc]
 
-$ sign_Title = "Self";
+$ sign_Title = "Self"
 
-$ pron = [yarn://cmacc-lib-lang/EN/_sing.cmacc];
+$ pron = [github:///cmacclang/cmacc-lib-lang/dev/EN/_sing.cmacc]

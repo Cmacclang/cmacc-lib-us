@@ -1,13 +1,13 @@
 // Person role
-$ role = "role";
+$ role = "role"
 
 // Person full name
-$ person_Full_Name = "person_Full_Name";
+$ person_Full_Name = "person_Full_Name"
 
 // Signature date and place
-$ sign_Place = "sign_Place";
+$ sign_Place = "sign_Place"
 
-$ sign_Date = "sign_Date";
+$ sign_Date = "sign_Date"
 
 // Signature block
 

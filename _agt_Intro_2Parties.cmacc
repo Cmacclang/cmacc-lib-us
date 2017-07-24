@@ -1,14 +1,14 @@
 // description of party 1
-$ p1_NEA = "p1_NEA";
+$ p1_NEA = "p1_NEA"
 
 // description of party 2
-$ p2_NEA = "p2_NEA";
+$ p2_NEA = "p2_NEA"
 
 // document title
-$ doc_Title = "Doc_Title";
+$ doc_Title = "Doc_Title"
 
 // effective date of agreement
-$ effective_Date = "Effective_Date";
+$ effective_Date = "Effective_Date"
 
 
 ## {{doc_Title}}
