@@ -8,8 +8,8 @@ $ a_Entity_Description = "a_Entity_Description"
 $ entity_Adr_Type = "entity_Adr_Type"
 
 // entity name
-$ entity_Full_Name = "entity_Full_Name"
+$ full_Name = "entity_Full_Name"
 
 // Entity name, description, address
 
-{{entity_Full_Name}}, {{a_Entity_Description}} whose {{entity_Adr_Type}} address is {{entity_Address}}
+{{full_Name}}, {{a_Entity_Description}} whose {{entity_Adr_Type}} address is {{entity_Address}}
