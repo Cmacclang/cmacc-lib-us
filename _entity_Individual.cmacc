@@ -1,8 +1,8 @@
 $ person = [github:///cmacclang/cmacc-lib-id/dev/_individual.cmacc]
 
-$ full_Name = "{{person.full_Name}}"
+$ full_Name = person.full_Name
 
-$ formal_Name = "{{person.formal_Name}}"
+$ formal_Name = person.formal_Name
 
 $ gov_ID_Number = "gov_ID_Number"
 
