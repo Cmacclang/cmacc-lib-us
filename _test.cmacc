@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $ person = [github:///cmacclang/cmacc-lib-id/dev/_individual.cmacc]
 
 $ entity = [./_entity_individual.cmacc]
@@ -9,3 +10,16 @@ $ adr_12.adr = entity.adr
 {{person.full_Name}}
 
 {{entity.person.full_Name}}, {{entity.entity_a}} whose {{entity.adr_Type}} address is {{adr_12}}
+=======
+$ person = [github:///cmacclang/cmacc-lib-id/dev/_individual.cmacc]
+
+$ entity = [./_entity_Individual.cmacc]
+$ entity.person = person
+
+$ adr_12 = [./_adr_12.cmacc]
+$ adr_12.adr = entity.adr
+
+{{person.full_Name}}
+
+{{entity.full_Name}}, {{entity.entity_a}} whose {{entity.adr_Type}} address is {{adr_12}}
+>>>>>>> d4e3d37184c93e2d6af294c7cb69825c1e01c49b
