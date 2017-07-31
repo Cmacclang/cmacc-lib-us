@@ -8,4 +8,4 @@ $ adr_12.adr = entity.adr
 
 {{person.full_Name}}
 
-{{entity.full_Name}}, {{entity.entity_a}} whose {{entity.adr_Type}} address is {{adr_12}}
+{{entity.person.full_Name}}, {{entity.entity_a}} whose {{entity.adr_Type}} address is {{adr_12}}
