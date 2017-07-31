@@ -1,8 +1,18 @@
 // Party 1 info
 
-$ party1_Sign_Rep_Full_Name = "party1_Sign_Rep_Full_Name"
+$ party1 = [./_entity.cmacc]
 
-$ party1_Sign_Rep_Role = "party1_Sign_Rep_Role"
+// Party 2 info
+
+$ party2 = [./_entity.cmacc]
+
+// Party 3 info
+
+$ party3 = [./_entity.cmacc]
+
+// Party 4 info
+
+$ party4 = [./_entity.cmacc]
 
 // Party 1 Signature block
 
@@ -11,16 +21,10 @@ $ sign_Party1_Place = "sign_Party1_Place"
 $ sign_Party1_Date = "sign_Party1_Date"
 
 $ signParty1 = [./_sign.cmacc]
-$ signParty1.role = party1_Sign_Rep_Role
-$ signParty1.person_Full_Name = party1_Sign_Rep_Full_Name
+$ signParty1.sign_Rep = party1.sign_Rep
+$ signParty1.sign_Rep_Title = party1.sign_Rep_Title
 $ signParty1.sign_Place = sign_Party1_Place
 $ signParty1.sign_Date = sign_Party1_Date
-
-// Party 2 info
-
-$ party2_Sign_Rep_Full_Name = "party2_Sign_Rep_Full_Name"
-
-$ party2_Sign_Rep_Role = "party2_Sign_Rep_Role"
 
 // Party 2 signature block
 
@@ -29,59 +33,55 @@ $ sign_Party2_Place = "sign_Party2_Place"
 $ sign_Party2_Date = "sign_Party2_Date"
 
 $ signParty2 = [./_sign.cmacc]
-$ signParty2.role = party2_Sign_Rep_Role
-$ signParty2.person_Full_Name = party2_Sign_Rep_Full_Name
+$ signParty1.sign_Rep = party2.sign_Rep
+$ signParty1.sign_Rep_Title = party2.sign_Rep_Title
 $ signParty2.sign_Place = sign_Party2_Place
 $ signParty2.sign_Date = sign_Party2_Date
 
-// Party 3 info
+// Party 3 signature block
 
-$ party3_Sign_Rep_Full_Name = "party3_Sign_Rep_Full_Name"
 
-$ party3_Sign_Rep_Role = "party3_Sign_Rep_Role"
+$ sign_Party3_Place = "sign_Party3_Place"
 
-// Party 2 signature block
-
-$ sign_Party3_Place = "sign_Party2_Place"
-
-$ sign_Party3_Date = "sign_Party2_Date"
+$ sign_Party3_Date = "sign_Party3_Date"
 
 $ signParty3 = [./_sign.cmacc]
-$ signParty3.role = party3_Sign_Rep_Role
-$ signParty3.person_Full_Name = party3_Sign_Rep_Full_Name
+$ signParty3.sign_Rep = party3.sign_Rep
+$ signParty3.sign_Rep_Title = party3.sign_Rep_Title
 $ signParty3.sign_Place = sign_Party3_Place
 $ signParty3.sign_Date = sign_Party3_Date
 
-
-// Party 4 info
-
-$ party4_Sign_Rep_Full_Name = "party4_Sign_Rep_Full_Name"
-
-$ party4_Sign_Rep_Role = "party4_Sign_Rep_Role"
-
 // Party 4 signature block
+
 $ sign_Party4_Place = "sign_Party4_Place"
 
 $ sign_Party4_Date = "sign_Party4_Date"
 
 $ signParty4 = [./_sign.cmacc]
-$ signParty4.role = party4_Sign_Rep_Role
-$ signParty4.person_Full_Name = party4_Sign_Rep_Full_Name
+$ signParty4.sign_Rep = party4.sign_Rep
+$ signParty4.sign_Rep_Title = party4.sign_Rep_Title
 $ signParty4.sign_Place = sign_Party4_Place
 $ signParty4.sign_Date = sign_Party4_Date
 
+// Document
 
 IN WITNESS WHEREOF, the undersigned have caused this instrument to be duly executed and delivered.
 
 <table width="100%">
-<tr>
-<td>{{signParty1}}</td>
-<td>{{signParty2}}</td>
-</tr><tr>
-<td></td>
-<td></td>
-</tr><tr>
-<td>{{signParty3}}</td>
-<td>{{signParty4}}</td>
-</tr>
-</table>
+<tr><td>
+
+{{signParty1}}
+
+</td><td>
+
+{{signParty2}}
+
+</td></tr><tr><td></td><td></td></tr><tr><td>
+
+{{signParty3}}
+
+</td><td>
+
+{{signParty4}}
+
+</td></tr></table>

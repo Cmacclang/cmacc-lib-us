@@ -1,7 +1,6 @@
-$ entity = [github:///cmacclang/cmacc-lib-id/dev/_individual.cmacc]
+$ person = [github:///cmacclang/cmacc-lib-id/dev/_individual.cmacc]
 
 $ adr_12 = [./_adr_12.cmacc]
-$ adr_12.adr = entity.adr
+$ adr_12.adr = person.adr
 
-
-{{entity.full_Name}}, an individual whose {{entity.adr_Type}} address is {{adr_12}}
+{{person.full_Name}}, an individual whose {{person.adr_Type}} address is {{adr_12}}

@@ -1,3 +1,6 @@
 $ entity = [./_entity.cmacc]
 
-{{entity.full_Name}}, {{entity.a_Entity_Description}} whose {{entity.adr_Type}} address is {{entity.adr}}
+$ adr_12 = [./_adr_12.cmacc]
+$ adr_12.adr = entity.adr
+
+{{entity.full_Name}}, {{entity.entity_a}} whose {{entity.adr_Type}} address is {{adr_12}}

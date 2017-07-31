@@ -18,29 +18,13 @@ $ signParty1.sign_Rep_Title = party1.sign_Rep_Title
 $ signParty1.sign_Place = sign_Party1_Place
 $ signParty1.sign_Date = sign_Party1_Date
 
-// Party 2 signature block
-
-$ sign_Party2_Place = "sign_Party2_Place"
-
-$ sign_Party2_Date = "sign_Party2_Date"
-
-$ signParty2 = [./_sign.cmacc]
-$ signParty1.sign_Rep = party2.sign_Rep
-$ signParty1.sign_Rep_Title = party2.sign_Rep_Title
-$ signParty2.sign_Place = sign_Party2_Place
-$ signParty2.sign_Date = sign_Party2_Date
-
 
 // Document
 
 IN WITNESS WHEREOF, the parties have executed this Agreement as of the Effective Date.
 
-<table width="100%"><tr><td>
+<tr><td>
 
 {{signParty1}}
 
-</td><td>
-
-{{signParty2}}
-
-</td></tr></table>
+</td></tr>

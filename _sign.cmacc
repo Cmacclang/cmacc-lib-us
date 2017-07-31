@@ -1,8 +1,7 @@
-// Person role
-$ role = "role"
+// Person signing
+$ sign_Rep = [github:///cmacclang/cmacc-lib-id/dev/_individual.cmacc]
 
-// Person full name
-$ person_Full_Name = "person_Full_Name"
+$ sign_Rep_Title = sign_Rep.sign_Title
 
 // Signature date and place
 $ sign_Place = "sign_Place"
@@ -11,10 +10,12 @@ $ sign_Date = "sign_Date"
 
 // Signature block
 
-Role: {{role}}
+Role: {{sign_Rep_Title}}
 
-Name: {{person_Full_Name}}  
+Name: {{sign_Rep.full_Name}}  
+
 Place: {{sign_Place}}
+
 Date: {{sign_Date}}
 
 -------------------------
