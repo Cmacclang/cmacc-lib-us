@@ -1,19 +1,19 @@
-$ full_Name = "name_Full";
+$ full_Name = "name_Full"
 
-$ dear_Name = "name_Dear";
+$ formal_Name = "name_Dear"
 
-$ gov_ID_Num = "gov_ID_Num";
+$ gov_ID_Num = "gov_ID_Num"
 
-$ entity_a = "entity_a";
+$ entity_a = "entity_a"
 
-$ adr = [yarn://cmacc-lib-geo/country/state/county/city/street/streetnum/_geo.cmacc];
+$ adr = [yarn://cmacc-lib-geo/country/state/county/city/street/streetnum/_geo.cmacc]
 
-$ adr_Type = "adr_Type";
+$ adr_Type = "adr_Type"
 
-$ contact_Name_Formal = "contact_Name_Formal";
+$ contact_Formal_Name = "contact_Name_Formal"
 
-$ sign_Rep = [yarn://cmacc-lib-id/_individual.cmacc];
+$ sign_Rep = [yarn://cmacc-lib-id/_individual.cmacc]
 
-$ sign_Title = "sign_Title";
+$ sign_Rep_Title = "sign_Title"
 
-$ pron = [yarn://cmacc-lib-lang/EN/_pron.cmacc];
+$ pron = [yarn://cmacc-lib-lang/EN/_pron.cmacc]

@@ -1,15 +1,6 @@
-// entity name
-$ entity_Address = "entity_Address";
+$ entity = [./_entity.cmacc]
 
-// entity description
-$ a_Entity_Description = "a_Entity_Description";
+$ adr_12 = [./_adr_12.cmacc]
+$ adr_12.adr = entity.adr
 
-// entity address reference (office, headquarter, etc...)
-$ entity_Adr_Type = "entity_Adr_Type";
-
-// entity name
-$ entity_Full_Name = "entity_Full_Name";
-
-// Entity name, description, address
-
-{{entity_Full_Name}}, {{a_Entity_Description}} whose {{entity_Adr_Type}} address is {{entity_Address}}
+{{entity.full_Name}}, {{entity.entity_a}} whose {{entity.adr_Type}} address is {{adr_12}}

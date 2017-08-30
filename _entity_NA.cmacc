@@ -1,9 +1,6 @@
-// entity name
-$ entity_Address = "entity_Address";
+$ entity = [./_entity.cmacc]
 
-// entity name
-$ entity_Full_Name = "entity_Full_Name";
+$ adr_12 = [./_adr_12.cmacc]
+$ adr_12.adr = entity.adr
 
-// Entity name and address
-
-{{entity_Full_Name}}, {{entity_Address}}
+{{entity.full_Name}}, {{adr_12}}
