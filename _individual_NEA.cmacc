@@ -1,4 +1,4 @@
-$ person = [github:///cmacclang/cmacc-lib-id/dev/_individual.cmacc]
+$ person = [yarn://cmacc-lib-id/_individual.cmacc]
 
 $ adr_12 = [./_adr_12.cmacc]
 $ adr_12.adr = person.adr
