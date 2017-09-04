@@ -37,5 +37,3 @@ Contains standard formatting files for English/US:
 * _sign_Block_2.cmacc is a signature block for contracts with 2 parties
 
 * _sing.cmacc includes a list of text options for singular (Mon, ma, etc...)
-
-* _xref is used for numbering sections and sub-sections, so that they can be referred to in other sections (which is why we have to track them, we would not know what to refer to if it was generated automatically)
