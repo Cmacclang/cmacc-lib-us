@@ -1,4 +1,6 @@
-$ person = [yarn://cmacc-lib-id/_individual.cmacc]
+$ individual = [yarn://cmacc-lib-id/_individual.cmacc]
+
+$ full_Name = individual.full_Name
 
 $ gov_ID_Number = "gov_ID_Number"
 
