@@ -4,9 +4,12 @@ $ sign_Rep = [yarn://cmacc-lib-id/_individual.cmacc]
 $ sign_Rep_Title = sign_Rep.sign_Title
 
 // Signature date and place
+
 $ sign_Place = "sign_Place"
 
 $ sign_Date = "sign_Date"
+
+$ sign_Signature = "...please sign here..."
 
 // Signature block
 
@@ -17,5 +20,7 @@ Name: {{sign_Rep.full_Name}}
 Place: {{sign_Place}}
 
 Date: {{sign_Date}}
+
+{{sign_Signature}}
 
 -------------------------
