@@ -1,6 +1,8 @@
-# cmacc-us
+# cmacc-lib-us
 
-Contains standard formatting files for English/US:
+[![NPM](https://nodei.co/npm/cmacc-lib-us.png?compact=true)](https://nodei.co/npm/cmacc-lib-us/)
+
+US - Masks and formatting files for the US
 
 * _adr_12.cmacc is for standard one line addresses
 
