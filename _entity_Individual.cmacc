@@ -2,6 +2,8 @@ $ individual = [yarn://cmacc-lib-id/_individual.cmacc]
 
 $ full_Name = individual.full_Name
 
+$ formal_Name = "name_Dear"
+
 $ gov_ID_Number = "gov_ID_Number"
 
 $ entity_a = "an individual"
