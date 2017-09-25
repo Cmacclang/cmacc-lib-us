@@ -1,3 +1,7 @@
+// Entity
+
+$ sign_Entity = [./_entity.cmacc]
+
 // Person signing
 
 $ sign_Rep = [yarn://cmacc-lib-id/_individual.cmacc]
@@ -13,6 +17,8 @@ $ sign_Date = "sign_Date"
 $ sign_Signature = "...please sign here..."
 
 // Signature block
+
+{{sign_Entity.full_Name}}
 
 Role: {{sign_Rep_Title}}
 
